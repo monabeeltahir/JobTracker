@@ -1,8 +1,9 @@
 # app.py
 import argparse, csv, json
 from datetime import datetime, timezone
-from configuration.config import companies
+from configurations.config import companies
 from src.tracker import get_company_jobs, iso_to_dt
+# Addding new data
 
 def main():
     parser = argparse.ArgumentParser()
